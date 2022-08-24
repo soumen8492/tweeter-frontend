@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bttn {
+    background-color: rgb(241, 60, 60);
+    text-align: center;
+    color: white; 
+    text-decoration: none;
+    height: 30px;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+.bttn:hover {
+    background-color: rgb(237, 113, 25);
+    color:white;
+}
+
+@media only screen and (max-width: 575px) {
+    .formContainer {
+        width: 95%;
+    }
+}

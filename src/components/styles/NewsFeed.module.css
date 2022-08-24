@@ -1,0 +1,16 @@
+.signOutButton:hover {
+    cursor: pointer;
+}
+
+.navbarContainer {
+    padding: 0 !important;
+    border-radius: 20px;
+}
+
+.navContainer {
+    display: flex !important; 
+    flex-direction: column !important;
+    width: 100%;
+    border-radius: 20px;
+    
+}

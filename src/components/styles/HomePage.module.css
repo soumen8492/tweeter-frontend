@@ -1,0 +1,95 @@
+
+.colContainerRight {
+    display: flex;
+
+    padding: 50px;
+    background-color: rgb(184, 255, 187);
+    border: 2px black solid;
+    border-radius: 50px;
+    box-shadow: 10px 15px 10px;
+    justify-content: center;
+    align-items: center;
+}
+.linkTextFormat {
+    text-decoration: black;
+    color: rgb(255, 255, 255);
+}
+
+.linkTextFormat:hover {
+    text-decoration: none;
+    color: white;
+}
+.btnHomePage {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 30%;
+    padding-right: 30%;
+    background-color: rgb(63, 209, 209);
+    justify-content: center;
+    align-items: center;
+}
+
+.center
+{
+    text-align: center;
+}
+
+/* .container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.colContainerLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftBackground {
+    background-image: url("../assets/home-background.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.colWithButtons {
+    width: 50%;
+    color: #3485bf;
+}
+
+.linkTextFormat {
+    text-decoration: none;
+    color: white;
+}
+
+.linkTextFormat:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 575px) { 
+    .colContainerLeft {
+        display: none;
+    }
+
+    .colWithButtons {
+        width: 95%;
+        text-align: center;
+    }
+} */
